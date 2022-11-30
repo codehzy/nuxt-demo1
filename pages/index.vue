@@ -1,5 +1,7 @@
 <template>
-  <Tutorial />
+  <div>
+    尝试部署Nuxt项目
+  </div>
 </template>
 
 <script lang="ts">

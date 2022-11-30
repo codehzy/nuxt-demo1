@@ -1,4 +1,5 @@
 export default {
+  target: 'server',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-demo1',
@@ -12,6 +13,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  server: {
+    port: 8333,
+    host: '0.0.0.0'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
