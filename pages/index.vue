@@ -1,6 +1,6 @@
 <template>
   <div>
-    尝试部署Nuxt项目
+    尝试部署Nuxt项目----hello-word
   </div>
 </template>
 
